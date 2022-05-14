@@ -15,7 +15,7 @@ import SidebarRow from './SidebarRow'
 
 const Sidebar:React.FC = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col col-span-2">
         {/* Logo */}
        <TwitterIcon className="h-10 w-10" />
         {/* SideBarRow Icon */}

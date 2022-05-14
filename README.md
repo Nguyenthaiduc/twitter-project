@@ -4,3 +4,4 @@
 1. Tailwindcss
 2. Heroicons
 3. Prettier
+4. react-twitter-embed
