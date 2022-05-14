@@ -15,7 +15,7 @@ import SidebarRow from './SidebarRow'
 
 const Sidebar:React.FC = () => {
   return (
-    <div>
+    <div className="flex flex-colgit">
         {/* Logo */}
        <TwitterIcon className="h-10 w-10" />
         {/* SideBarRow Icon */}
@@ -25,6 +25,9 @@ const Sidebar:React.FC = () => {
         <SidebarRow Icon={MailIcon} title="Messages"/>
         <SidebarRow Icon={BookmarkIcon} title="Bookmarks"/>
         <SidebarRow Icon={CollectionIcon} title="Lists"/>
+        <SidebarRow Icon={UserIcon} title="Sign In"/>
+
+        <SidebarRow Icon={DotsCircleHorizontalIcon} title="More"/>
     </div>
   )
 }
