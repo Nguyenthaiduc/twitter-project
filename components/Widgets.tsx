@@ -4,7 +4,7 @@ import {TwitterTimelineEmbed} from 'react-twitter-embed'
 
 const Widgets:React.FC = () => {
   return (
-    <div className="col-span-2 mt-2 px-2">
+    <div className="col-span-2 mt-2 px-2 hidden lg:inline">
         {/* Search */}
         <div className="flex items-center space-x-2 bg-gray-100 
         p-3 rounded-full mt-2">

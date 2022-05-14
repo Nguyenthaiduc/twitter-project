@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { SVGProps } from 'react'
 interface PropTypes {
     className?: string;
+    
+    
 }
 
 export const TwitterIcon:React.FC<PropTypes> = ({className}) => {
@@ -16,6 +18,12 @@ export const TwitterIcon:React.FC<PropTypes> = ({className}) => {
             </path>
         </g>
     </svg>
+  )
+}
+export const LunaIcon:React.FC<PropTypes> = ({className})=>{
+  return (
+    <svg></svg>
+
   )
 }
 
