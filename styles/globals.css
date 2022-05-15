@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    src: url(/public/fonts/chirp-bold-web.woff);
+    font-weight: 700    ;
+}
+@font-face {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    src: url(/public/fonts/chirp-heavy-web.woff);
+    font-weight: 900;
+}
+@font-face {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    src: url(/public/fonts/chirp-regular-web.woff);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    src: url(/fonts/chirp-bold-web.woff);
+    font-weight: 700    ;
+}
+@font-face {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    src: url(/fonts/chirp-heavy-web.woff);
+    font-weight: 900;
+}
+@font-face {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    src: url(/fonts/chirp-regular-web.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif ;
+    src: url();
+}
+
