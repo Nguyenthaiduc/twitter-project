@@ -11,3 +11,16 @@
 ### Installation
 >sanity start
 >yarn start
+### Fetch in Sanity
+```cs
+*[_type == 'tweet']{
+  _id,  
+  ...
+}
+```
+```cs
+*[_type == 'tweet']{
+  _id,
+  ...
+}| order(_createAt desc)
+``` 

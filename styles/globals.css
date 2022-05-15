@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-@font-face {
+/* @font-face {
     font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     src: url(/public/fonts/chirp-bold-web.woff);
     font-weight: 700    ;
@@ -39,5 +39,5 @@
 @font-face {
     font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif ;
     src: url();
-}
+} */
 
