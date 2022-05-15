@@ -7,6 +7,8 @@
 4. react-twitter-embed
 5. Sanity
 6. yarn add next-sanity @portabletext/react @sanity/image-url
+7. React Toast Hot
+9. Next Auth
 
 ### Installation
 >sanity start
