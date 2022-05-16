@@ -5,7 +5,7 @@ import { sanityClient } from '../../sanity';
 import { Comment } from '../../typing';
 
 const commentQuery = groq`
-*[_type == "comment" && references(*[_type=='tweet' && _id == $tweetId]._id)]{
+*[_type == "comment" && references(*[_type=='tweet']._id)]{
     _id,
     ...
 } | order(_createAt desc)
@@ -13,7 +13,7 @@ const commentQuery = groq`
 
 type Data = Comment[];
 
-export default async function handler(
+export default async function handler(  
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
